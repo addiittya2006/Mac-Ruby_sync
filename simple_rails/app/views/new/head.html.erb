@@ -1,0 +1,16 @@
+<title>Head</title>
+<h1>New#head</h1>
+<h1>I am a header file</h1>
+<p>Find me in app/views/new</p>
+<p>Hello Ruby on Rails!</p>
+</br></br>
+<a href="/new/hello">Hello link 1</a><br />
+<%= link_to('Hello link 2', {:action => 'hello'}) %></br>
+<%= link_to('Hello link 3', {:action => 'hello', :page => 1, :id => 234}) %>
+
+</br><br/>
+page id: <%= params[:id] %></br>
+page id: <%= @id %><br/>
+page no.: <%= @pageno %>
+
+<br/><br/><br/><br/><br/><br/><%= params.inspect%>

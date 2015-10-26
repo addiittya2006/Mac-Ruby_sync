@@ -1,0 +1,27 @@
+<title>Hello</title>
+<h1>New#Hello</h1>
+<h3>Just a Hello Page</h3>
+<p>Find me in app/views/new</p>
+<p>Hello Ruby on Rails!</p>
+</br></br>
+<a href="/new/head">Head link 1</a><br />
+<%= link_to('Head link 2', {:action => 'head'}) %></br>
+<%= link_to('Head link 3', {:action => 'head', :page => 3, :id => 567}) %><br/><br/>
+<% add = 1+1 %>
+<%= "the sum is #{add}"%>
+</br></br></br>
+<% 3.times do %>
+  <%= "xxx" %></br>
+<% end %>
+</br></br>
+<%="the array in 'hello' is"%>
+<% @array.each do |n| %>
+  <%= n %><%= ", "%>
+<% end %>
+<br/><br/>
+page id: <%= params[:id] %></br>
+page id: <%= @id %></br>
+page no.: <%= @pageno %></br>
+next page no.: <%= @pageno+1 %>
+</br></br></br></br></br></br>
+<%= params.inspect %>
