@@ -1,4 +1,4 @@
-require_relative '../assignment/assignment'
+  require_relative '../assignment/assignment'
 
 
 describe Assignment do
